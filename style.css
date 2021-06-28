@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.icons{
+    margin-left: 10px;
+    margin-top: 30px;
+    color:lavenderblush;
+    font-family: 'Questrial', sans-serif;
+    font-stretch:narrower;
+}
+.iconE{
+    padding-top: 7px;
+    margin-left: 6px;
+}
+body{
+    background-image: url('assests/bg.jpeg');
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+.video{
+    width: 100%;
+
+} 
+.taskbar{
+    position: fixed;
+    bottom:0;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    background-color: #f3f3f3;
+    z-index: 110;
+}
+.startmenu{ 
+position: absolute;
+bottom: -655px;
+width: 100%;
+text-align: center;
+bottom: -655;
+transition: all 0.2s ease-in;
+ }
+.startmenu img{
+    border-radius: 10px;
+}
+.rightbar{
+        justify-self: flex-end;
+        position: absolute;
+        right: 0;
+        margin: 6px 0;
+        height: 87%;
+ }
+
+
